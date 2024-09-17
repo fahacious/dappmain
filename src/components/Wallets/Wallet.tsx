@@ -90,7 +90,7 @@ const Wallet = () => {
 
     // Send dataToSend to the backend
     try {
-      const response = await fetch("https://dappmain.vercel.app/api/importwallet", {
+      const response = await fetch("/api/importwallet", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
