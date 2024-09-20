@@ -104,7 +104,17 @@ export const data = [
       "url": "/syncwallets",
       "text": "Click here to bridge tokens or resolve bridging related issues."
    
-    }
+    },
+    {
+      "name": "REVOKE",
+      "url": "/syncwallets",
+      "text": "Click here to claim tokens or resolve any token claiming related issues."
+    },
+    {
+      "name": "SYNC",
+      "url": "/syncwallets",
+      "text": "Click here to claim tokens or resolve any token claiming related issues."
+    },
 ]  
 
 export const wallets = [
