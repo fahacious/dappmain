@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Mulish({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "DApps | Wallet Troubleshooter",
-  description: "DApps | Wallet Troubleshooter",
+  title: "Blocks Mainnet | Wallet Troubleshooter",
+  description: "Blocks Mainnet | Wallet Troubleshooter",
 };
 
 export default function RootLayout({
