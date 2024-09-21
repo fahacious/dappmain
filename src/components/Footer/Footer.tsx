@@ -10,7 +10,7 @@ const Footer = () => {
             <aside className="grid-flow-col items-center">
               <img src="/logo.png" alt="logo" className="w-[50px] h-[50px]"/>
               <p className="font-bold">
-                Copyright © ${new Date().getFullYear()} - All right reserved
+                Copyright © {new Date().getFullYear()} - All right reserved
               </p>
             </aside>
 
