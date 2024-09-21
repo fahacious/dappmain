@@ -15,10 +15,10 @@
 
 html,
 body {
-  background: rgb(2, 0, 36);
+  background: rgb(100 0 100, 0);
   background: linear-gradient(
     90deg,
-    rgba(87,15,77,69) 30%,
+    rgba(100 0 100, 0) 30%,
     rgba(100 0 100, 0) 290%
   );
 }
